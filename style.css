@@ -1,0 +1,47 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+.container {
+  background-color: #d7816a;
+  border: black solid 2px;
+  width: 800px;
+  height: 900px;
+  border-radius: 5px;
+  padding-top: 30px;
+}
+h1,
+p,
+h2 {
+  font-family: "Abel", sans-serif;
+  font-size: 25px;
+  text-align: center;
+  padding-top: 30px;
+}
+.number {
+  font-family: "Abel", sans-serif;
+  font-size: 25px;
+  text-align: center;
+  margin: 20px;
+}
+h1 {
+  font-size: 50px;
+}
+.btn,
+.check,
+.guess {
+  position: relative;
+  left: 40%;
+}
+.btn,
+.guess,
+.check {
+  border-radius: 40px;
+  border: black dashed 2px;
+  padding: 20px;
+  background-color: white;
+}
+
+.check {
+  padding: 10px;
+}

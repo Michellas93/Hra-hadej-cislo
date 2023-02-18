@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hadej moje cislo</title>
+    <script src="script.js" type="module"></script>
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Hádej číslo</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Hádej, jaké si myslím číslo?</h1>
+        <button class="btn">Zkus to znovu!</button>
+        <p class="between">(od 1 do 20)</p>
+        <div class="number">?</div>
+      </header>
+      <main>
+        <section class="left">
+          <input type="number" class="guess" />
+          <button class="check">klik!</button>
+        </section>
+        <section class="right">
+          <p class="message">Jak si vedeš</p>
+          <p class="label-score">💯 Score: <span class="score">20</span></p>
+          <p class="label-highscore">
+            🥇 Highscore: <span class="highscore">0</span>
+          </p>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
