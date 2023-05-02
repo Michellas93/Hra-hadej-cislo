@@ -12,9 +12,10 @@ document.querySelector(".check").addEventListener("click", function () {
     display("🛑 Žádné číslo!");
   } else if (guess === secret) {
     display("Číslo je správně🥳");
+    document.querySelector(".message").style.color = "#8D918D";
     document.querySelector(".number").textContent = secret;
     document.querySelector(".number").style.width = "40 rem";
-    document.querySelector("body").style.backgroundColor = "#BD4F6C";
+    document.querySelector("body").style.backgroundColor = "#B6B6B4";
     if (score > highscore) {
       highscore = score;
       document.querySelector(".highscore").textContent = highscore;
@@ -37,7 +38,7 @@ document.querySelector(".btn").addEventListener("click", function () {
   display("Začni hádat");
   document.querySelector(".score").textContent = score;
   document.querySelector(".number").textContent = "?";
-  document.querySelector(".number").style.width = "15 rem";
+  document.querySelector(".number").style.width = "17 rem";
   document.querySelector(".guess").value = "";
-  document.querySelector("body").style.backgroundColor = "#EEC0C6";
+  document.querySelector("body").style.backgroundColor = "#25383C";
 });

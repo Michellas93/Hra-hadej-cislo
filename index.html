@@ -6,11 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hadej moje cislo</title>
     <script src="script.js" type="module"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Miltonian+Tattoo&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
 
     <title>Hádej číslo</title>
   </head>
   <body>
+    <img
+      class="img"
+      src="img/black-white-yahtzee-dice-clip-art-black-games-cliparts-d5c7cbf0fe28edcf87cd6286215f5e11.png"
+    />
     <div class="container">
       <header>
         <h1>Hádej, jaké si myslím číslo?</h1>
@@ -20,7 +32,7 @@
       </header>
       <main>
         <section class="left">
-          <input type="number" class="guess" />
+          <input type="number" min="0" max="20" class="guess" />
           <button class="check">klik!</button>
         </section>
         <section class="right">
@@ -32,5 +44,9 @@
         </section>
       </main>
     </div>
+    <img
+      class="img"
+      src="img/black-white-yahtzee-dice-clip-art-black-games-cliparts-d5c7cbf0fe28edcf87cd6286215f5e11.png"
+    />
   </body>
 </html>
