@@ -1,73 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Hadej moje cislo</title>
-		<script src="script.js" defer></script>
-		<link rel="preconnect" href="https://fonts.googleapis.com" />
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-		<link
-			href="https://fonts.googleapis.com/css2?family=Overpass:wght@100;200;300;400;800&display=swap"
-			rel="stylesheet"
-		/>
-		<link rel="stylesheet" href="style.css" />
-
-		<title>Guess my number - game</title>
-	</head>
-	<body>
-		<div class="container__number--left">
-			<p class="number--two">2</p>
-			<p class="position__number number--seventeen">17</p>
-			<p class="position__number number--twelve">12</p>
-			<p class="number--nineteen">19</p>
-			<p class="number--ten">10</p>
-			<p class="position__number number--four">4</p>
-			<p class="number--threeteen">13</p>
-			<p class="number--fiveteen">15</p>
-			<p class="position__number number--eighteen">18</p>
-			<p class="position__number number--six">6</p>
-		</div>
-
-		<div class="container">
-			<header>
-				<h1 class="title">Guess my number</h1>
-			</header>
-			<main>
-				<div class="box__main">
-					<button class="btn">Zkus to znovu!</button>
-					<p class="between">(od 1 do 20)</p>
-					<div class="number">?</div>
-					<input
-						type="number"
-						min="0"
-						max="20"
-						class="guess"
-						placeholder="enter number"
-					/>
-					<button class="check">klik!</button>
-					<section class="right">
-						<p class="message">Jak si vedeš</p>
-						<p class="label-score">💯 Score: <span class="score">20</span></p>
-						<p class="label-highscore">
-							🥇 Highscore: <span class="highscore">0</span>
-						</p>
-					</section>
-				</div>
-				<div class="container__number--right">
-					<p class="number--eight">8</p>
-					<p class="position__number number--fourteen">14</p>
-					<p class="position__number number--three">3</p>
-					<p class="number--seven">7</p>
-					<p class="number--one">1</p>
-					<p class="position__number number--eleven">11</p>
-					<p class="number--sixteen">16</p>
-					<p class="number--five">5</p>
-					<p class="number--nine">9</p>
-					<p class="position__number number--twenty">20</p>
-				</div>
-			</main>
-		</div>
-	</body>
+<html lang="cs">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hadej moje cislo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Overpass:wght@100;200;300;400;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
 </html>
